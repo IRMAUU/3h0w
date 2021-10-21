@@ -6,12 +6,26 @@
 	<meta charset="utf-8">
 	<style type="text/css">
 		@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');    img { max-width: 100%; height: auto; }
-		p {
-font-size: 15px;
+p {
+font-size: 8px;
 font-family: 'Roboto Mono', monospace;
 	color: white;
 		}
+
+   @media only screen and (min-width: 981px){
+      #test{
+        display: none;
+      }
+    }
+@media only screen and (max-width: 1000px) {
+  #hide {
+    display: none;
+  }
+}
+
 a:link {
+font-size: 8px;
+font-family: 'Roboto Mono', monospace;
   color: white;
 }
 
@@ -22,7 +36,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-font-weight: lighter;
+font-weight: bolder;
 }
 
 /* selected link */
@@ -30,13 +44,14 @@ a:active {
   color: white;
 }
 
+.green {
+    color: #84ff00;
+}
 
-.div
-{
-	width: 50%;
-	padding: 15px;
-	background-image: url("orderform.png");
+span,
 
+.red {
+    color: red;
 }
 
 	</style>
