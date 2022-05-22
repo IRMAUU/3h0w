@@ -6,8 +6,8 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head> <title>³MAG: Edition 1</title>
 <meta name="viewport" content="width = 1050, user-scalable = no" charset="utf-8" />
-<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
-<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="turnjs4/extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="turnjs4/extras/modernizr.2.5.3.min.js"></script>
 <style type="text/css">
 	p {
 font-size: 8px;
@@ -115,9 +115,9 @@ function loadApp() {
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['../../lib/turn.min.js'],
-	nope: ['../../lib/turn.html4.min.js'],
-	both: ['../../lib/scissor.min.js', 'css/double-page.css'],
+	yep: ['turnjs4/lib/turn.min.js'],
+	nope: ['turnjs4/lib/turn.html4.min.js'],
+	both: ['turnjs4/lib/scissor.min.js', 'css/double-page.css'],
 	complete: loadApp
 });
 
