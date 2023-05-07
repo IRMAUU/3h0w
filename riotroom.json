@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "2023",
+"productVersion": "0.1",
+"dataUrl": "riotroom.data.unityweb",
+"wasmCodeUrl": "riotroom.wasm.code.unityweb",
+"wasmFrameworkUrl": "riotroom.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.2f1"
+}
