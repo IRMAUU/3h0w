@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMPITHEATRE: ONLINE GIFT SHOP</title>
+  <meta name="description" content="Your website description here">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap">
+  <link rel="icon" type="image/png" href="favicon.png"> <!-- Link to your favicon image -->
+
+  <!-- Common Title and Thumbnail Scripts -->
+  <meta property="og:title" content="AMPITHEATRE. Gift Shop">
+  <meta property="og:description" content="webpage for the simplified AMPITHEATRE. shop">
+  <meta property="og:image" content="shop.jpg"> <!-- Link to your thumbnail image -->
+
+  <meta name="twitter:title" content="AMPITHEATRE. Gift Shop">
+  <meta name="twitter:description" content="webpage for the simplified AMPITHEATRE. shop">
+  <meta name="twitter:image" content="shop.jpg"> <!-- Link to your thumbnail image -->
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&family=Syne+Mono&display=swap');
+
+    p {
+      font-family: 'Source Code Pro', monospace;
+      font-size: 12px;
+      color: white;
+    }
+
+    h1 {
+      font-family: 'Source Code Pro', monospace;
+      font-size: 18px;
+      color: white;
+    }
+
+    a:link {
+      font-size: 15px;
+      font-family: 'Source Code Pro', monospace;
+      color: white;
+      font-weight: bolder;
+    }
+
+    /* visited link */
+    a:visited {
+      color: white;
+      font-weight: lighter;
+    }
+
+    /* mouse over link */
+    a:hover {
+      font-weight: bolder;
+    }
+
+    /* selected link */
+    a:active {
+      color: red;
+    }
+
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Roboto Mono', monospace;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 40vh;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; /* Distribute boxes evenly */
+      width: 80%; /* Take up 65% of the screen width on desktop */
+      height: auto;
+      max-height: 150vh; /* Limit the height to ensure proper display on small screens */
+      margin: 20px auto; /* Add margin for centering */
+    }
+
+    .box {
+      width: 50%; /* Each box takes up 30% of the container's width */
+      padding: 10px;
+      text-align: center;
+      transition: background-color 0.3s;
+      box-sizing: border-box; /* Include padding and border in width calculation */
+      margin: 0; /* Reset margin to remove gaps between boxes */
+    }
+
+    .box:hover {
+      background-color: rgba(255, 255, 255, 0.1); /* Lightening effect on hover */
+    }
+
+    .box:active {
+      background-color: rgba(0, 0, 0, 0.3); /* Darkening effect on click */
+    }
+
+    .box img {
+      width: 100%;
+      height: auto;
+    }
+
+    .box .footer-text {
+      margin-top:  5px;
+      font-size: 14px;
+    }
+
+    .footer {
+      text-align: left;
+      padding: 100px;
+      font-size: 12px;
+    }
+
+    /* Adjust box size for mobile */
+    @media (max-width: 800px) {
+      .container {
+        width: 75%; /* Take up 80% of the screen width on mobile */
+        flex-direction: column; /* Stack boxes vertically */
+      }
+      .box {
+        width: 100%; /* Each box takes up 100% of the container's width on mobile */
+        margin: 10px 0; /* Add margin between stacked boxes */
+      }
+    }
+
+    /* Adjust link display for mobile */
+    @media (max-width: 768px) {
+      .links {
+        width: 80%; /* Take up 80% of the screen width on mobile */
+        display: flex;
+        justify-content: space-between; /* Distribute links evenly */
+        margin: 10px auto; /* Add margin for centering */
+      }
+    }
+
+    /* Adjust link display for desktop */
+    @media (min-width: 769px) {
+      .links {
+        width: 40%; /* Take up 40% of the screen width on desktop */
+        display: flex;
+        justify-content: space-between; /* Distribute links evenly */
+        margin: 10px auto; /* Add margin for centering */
+      }
+    }
+  </style>
+</head>
+<body><br>
+  <img src="ampishopheader.png" width="350px">
+
+  <div class="links">
+    <a href="http://3h0w.store">Virtual Store</a>
+    <a href="http://3h0w.store/ampitheatre.html">AMPITHEATRE</a>
+    <a href="https://3h0w.store/3MAG.html">³MAG</a>
+    <a href="https://instagram.com/gtthk">Contact</a>
+  </div>
+
+  <div class="container">
+    <div class="box">
+      <a href="http://3h0w.store/la-tee.html">
+        <img src="la-tee-sq.png" alt="Image 1">
+        <div class="footer-text">3HOW/AMPITHEATRE. Tee</div>
+      </a>
+    </div>
+    <div class="box">
+      <a href="http://3h0w.store/mm-tee.html">
+        <img src="mm-tee-sq.png" alt="Image 2">
+        <div class="footer-text">MYSTERY MASTERS TEE</div>
+      </a>
+    </div>
+    <div class="box">
+      <a href="http://3h0w.store/labels.html">
+        <img src="vl-sq.png" alt="Image 3">
+        <div class="footer-text">TAG VINYL LABELS</div>
+      </a>
+    </div>
+  </div>  
+  </div>
+</body>
+</html>
